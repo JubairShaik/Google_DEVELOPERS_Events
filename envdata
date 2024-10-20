@@ -1,0 +1,22 @@
+ 
+MONGODB_URI = mongodb+srv://jubairxxiv:P0mf5atekmraIwBN@cluster0.2w71n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY = pk_test_Z3JhbmQtbGlvbmZpc2gtNjEuY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY = sk_test_m5tOMxCC6VY8PXQj4vGJYhl550o4kTmhnLLOMhdch0
+
+UPLOADTHING_SECRET = sk_live_fab8598e7a15503e54c3d1bb5c50b3670f9849042221c0df9303750b6a20db1e
+UPLOADTHING_APP_ID = 6br6yfkqwz
+ 
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL =/ 
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL =/ 
+
+
+
+NEXT_CLERK_WEBHOOK_SECRET = whsec_3x4dM1pkTXZGRyDZofWWfrJtEGFBazr4
+
+
+
