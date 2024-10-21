@@ -19,6 +19,10 @@ export const headerLinks = [
     label: 'Tickets',
     route: '/tickets',
   },
+  {
+    label: 'GDG Events',
+    route: '/all-events',
+  },
 ]
 
 export const eventDefaultValues = {
