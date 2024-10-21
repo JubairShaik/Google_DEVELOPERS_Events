@@ -3,8 +3,7 @@ import { Poppins } from 'next/font/google'
 import { ClerkProvider } from '@clerk/nextjs'
 
 import './globals.css'
-import { ScrollAnimation } from '@/components/GSAP'
-
+ 
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
@@ -25,13 +24,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ScrollAnimation>
-
+ 
     <ClerkProvider>
       <html lang="en">
         <body className={poppins.variable}>{children}</body>
       </html>
-    </ClerkProvider>
-    </ScrollAnimation>
+    </ClerkProvider> 
   )
 }
